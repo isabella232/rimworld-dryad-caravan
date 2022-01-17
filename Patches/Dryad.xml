@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[@Name = "DryadBase"]/race/allowedOnCaravan</xpath> <!--Priority is important here, hence the insert after this specific subNode-->
+		<value>
+			<allowedOnCaravan>true</allowedOnCaravan>
+		</value>
+	</Operation>
+</Patch>
